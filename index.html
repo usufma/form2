@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Job Details: </title>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <h2> Job Details: </h2>
+      <form>
+         <fieldset>
+            <table>
+               <tr>
+                  <td><label for= "jt"> Job Title: </label></td>
+                  <td><input type= "text" id = "jt"  name="jt" </input> <br> <br></td>
+               </tr>
+               <tr>
+                  <td><label for = "jd"> Description: </label></td>
+                  <td>
+                     <textarea class="jd" id = "jd" name="jd" col="20" rows="4"> </textarea>
+                     <p>Brief Description should be atmost 500 characters</p>
+                  </td>
+               </tr>
+               <tr>
+                  <td><label for = "cn"> Company Name: </label></td>
+                  <td><input type = "text" id = "cn"  name="cn" </input> <br> <br></td>
+               </tr>
+               <tr>
+                  <td><label for = "con"> Contact Number : </label></td>
+                  <td><input type = "" id = "con"  name="con" </input> <br> <br></td>
+               </tr>
+               <tr>
+                  <td><label for = "cp"> Contact Person: </label></td>
+                  <td><input type = "text" id = "cp"  name="cp" </input> <br> <br></td>
+               </tr>
+               <tr>
+                  <td><label for = "em"> Email: </label></td>
+                  <td><input type = "Email" id = "em"  name="em"> </input> <br> <br></td>
+               </tr>
+               <tr>
+                  <td><label for = "ws"> Work Status </label></td>
+                  <td><input type = "checkbox" id = "ws"  name="ws">Full time </input>
+                     <input type = "checkbox" id = "ws"  name="ws">Part time </input>
+                     <input type = "checkbox" id = "ws"  name="ws">per dim </input>
+                     <input type = "checkbox" id = "ws"  name="ws">Others </input>
+                  </td>
+               </tr>
+               <tr>
+                  <td><label for = "sl"> Salary: </label></td>
+                  <td>
+                     <input type = "Email" id= "em"  name="em" </input>
+                     <select>
+                        <option value="Us dollar"> US Dollar </option>
+                     </select>
+                     <select>
+                        <option value="Yearly"> Yearly </option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td><label for = "ex"> Experience(years): </label></td>
+                  <td><input type = "numbers" id = "ex"  name="ex" </input> <br> <br></td>
+               </tr>
+               <tr>
+                  <td><label for = "loc"> Location: </label></td>
+                  <td><input type = "text" id = "loc"  name="loc"> </input> <br> <br></td>
+               </tr>
+               <tr>
+                  <td><label for="qual">Qualification:</label></td>
+                  <td>
+                     <select size="4" multiple>
+                        <option value="any">Any</option>
+                        <option value="high school">High School</option>
+                        <option value="associate">Associate</option>
+                        <option value="pre bachelors">Pre Bachelors</option>
+                     </select>
+                     <input type="submit" value="Add>>">
+                     <input type="submit" value="<<Remove">
+                     <textarea class="any" name="any" cols="6" rows="5">Any</textarea>
+                  </td>
+               </tr>
+               <tr>
+                  <td><input type="submit" value="Submit"></td>
+                  <td><input type="reset" value="Reset"></td>
+               </tr>
+            </table>
+            </table>
+         </fieldset>
+      </form>
+   </body>
+</html>

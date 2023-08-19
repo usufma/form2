@@ -1,0 +1,40 @@
+h2{
+	text-align:center;
+}
+
+form{
+	display:flex;
+	justify-content:center;
+}
+fieldset{
+	width:50%;
+	border:2px dotted;
+}
+table{
+	width:100%;
+}
+th{
+	border:1px dotted;
+}
+td{
+	border:1px dotted;
+}
+tr td:first-child{
+	text-align:end;
+}
+.jd{
+	resize:none;
+	overflow-y:scroll;
+	border-top:2px solid;
+	border-left:2px solid;
+	
+}
+.any{
+	resize:none;
+	border-top:2px solid;
+	border-left:2px solid;
+}
+input{
+	border-bottom:1px solid;
+	border-right:1px solid;
+}
